@@ -1,0 +1,22 @@
+.container {
+  background-color: rgb(53, 197, 82);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+
+  .title {
+    color: #402d00;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+
+  input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+}
