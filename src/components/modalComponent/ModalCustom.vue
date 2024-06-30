@@ -1,5 +1,5 @@
 <style lang="scss" scoped>
-@import url('./ModalCustom.scss');
+@import url('./ModalStyles.scss');
 </style>
 <script setup>
 import { useModalData } from '@/stores/counter.js'

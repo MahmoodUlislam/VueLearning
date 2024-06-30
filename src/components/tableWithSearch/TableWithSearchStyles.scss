@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  height: 40vh;
+  input {
+    width: 30vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  table {
+    border-collapse: collapse;
+    width: 70vw;
+    margin: 0 auto;
+    height: 30vh;
+    thead {
+      background-color: #f2f2f2;
+      font-size: 18px;
+      tr {
+        th {
+          text-align: left;
+          padding: 8px;
+        }
+        td {
+          padding: 8px;
+        }
+      }
+    }
+  }
+  .noData {
+    text-align: center;
+    font-size: 24px;
+    color: red;
+  }
+}
